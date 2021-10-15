@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
+    "sass":"node-sass src/resources/scss/app.scss src/public/css/style.css",
     "test": "nodemon --inspect src/index.js",
     "start": "nodemon src/index.js"
   },
